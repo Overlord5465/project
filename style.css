@@ -1,0 +1,156 @@
+body{
+  overflow-x: hidden;
+}
+.border-orange{
+  border-left: 2px solid #f14d34;
+  padding-left: 3px;
+}
+#myVideo {
+  position: absolute;
+  display: block;
+  transform: scaleX(3); 
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  opacity: 0.2;
+}
+a{
+  text-decoration: none !important;
+  color:white !important;
+}
+a:hover{
+  border-bottom: #f14d34 solid 3px;
+  padding-bottom: 5px;
+}
+
+/*--------------------------------section_1-----------------------------------*/
+
+#section_1{
+  height: 650px;
+  width: 100vw;
+  margin: 0;
+  background-color: black;
+  color:white;
+  overflow: hidden;
+}
+#section_1 > header{
+  height: 50px;
+}
+#section_1 #drupal-coder{
+  display: block;
+  width: 140px;
+  height: 20px;
+  margin: auto;
+}
+#section div{
+  margin: auto;
+}
+#number{
+  padding-left:10%;
+}
+#s1_2{
+  margin-top: 8%;
+  height: 60%;
+  transform: scale(1.1);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#s1_2 >div>div>div{
+  height: 35%;
+  padding-left: 10px;
+}
+#s1_2 button{
+  background-color: unset;
+  border-radius: 10px;
+  color: white;
+  border-color: #f14d34;
+  width:250px;
+  height: 80px;
+}
+#s1_2 button:hover{
+  background-color: #f14d34;
+}
+#s1_2 h1{
+  padding-top: 60px;
+}
+
+/*--------------------------------section_2-----------------------------------*/
+
+#section_2{
+  height: 80vh;
+  width: 100vw;
+  margin-top: 4%;
+  margin-left: 15%;
+  margin-right: 20%;
+  overflow: hidden;
+}
+#s2_1{
+  width: 30%;
+}
+
+#s2_2{
+  width: 65%;
+}
+/*--------------------------------section_3-----------------------------------*/
+
+#section_3{
+  height: max-content;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+#section_3 h1{
+  text-align: center;
+}
+#section_3 small{
+  color: gray;
+}
+#s3_1{
+  margin-bottom: 100px;
+}
+.square{
+  max-height: 300px;
+  max-width: 300px;
+  padding-right: 0 !important;
+  vertical-align: bottom;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  background-color: white;
+}
+.square img{
+  display: block;
+  margin-top: 115px;
+  margin-left: 200px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+#s3_2{
+  position: absolute;
+}
+
+/*--------------------------------section_4-----------------------------------*/
+
+#section_4{
+  background: linear-gradient(to left,rgb(55, 53, 67), black );
+  color:white;
+  height: 840px;
+  width: 100vw;
+  margin-top: 400px;
+  padding-top: 400px;
+}
+#section_4 > img{
+  float: left;
+  width: 660px;
+  height: 530px;
+}
+#s4_2{
+  margin-top: 100px;
+}
+#s4_2 p{
+  width: 200px;
+}
+
+/*--------------------------------section_5-----------------------------------*/
